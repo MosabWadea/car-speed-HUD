@@ -452,101 +452,6 @@ Please use FRAME-LEDGER/FRAME-LETTER for schematics now.</description>
 </library>
 <library name="SparkFun">
 <packages>
-<package name="1X02">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="MOLEX-1X2">
-<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016"/>
-</package>
-<package name="SCREWTERMINAL-3.5MM-2">
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="S2B-PH">
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.3048" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-5" width="0.3048" layer="51"/>
-<wire x1="4" y1="-5" x2="-4" y2="-5" width="0.3048" layer="51"/>
-<wire x1="-4" y1="-5" x2="-4" y2="3" width="0.3048" layer="51"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="P$1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.27" y="0" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="1X02_BIG">
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
-<wire x1="5.08" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="1.0668"/>
-<pad name="P$2" x="3.81" y="0" drill="1.0668"/>
-</package>
-<package name="S2B-PH-VERTICAL">
-<wire x1="-4.1" y1="2.97" x2="4.2" y2="2.97" width="0.3048" layer="51"/>
-<wire x1="4.2" y1="2.97" x2="4.2" y2="-2.13" width="0.3048" layer="51"/>
-<wire x1="4.2" y1="-2.13" x2="-4.1" y2="-2.13" width="0.3048" layer="51"/>
-<wire x1="-4.1" y1="-2.13" x2="-4.1" y2="2.97" width="0.3048" layer="51"/>
-<wire x1="-4.04" y1="2.91" x2="4.18" y2="2.91" width="0.2032" layer="21"/>
-<wire x1="4.18" y1="2.91" x2="4.18" y2="2.9" width="0.127" layer="21"/>
-<wire x1="4.19" y1="-1.64" x2="4.19" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="4.19" y1="-2.15" x2="1.84" y2="-2.15" width="0.2032" layer="21"/>
-<wire x1="-1.72" y1="-2.14" x2="-4.1" y2="-2.14" width="0.2032" layer="21"/>
-<wire x1="4.18" y1="2.91" x2="4.18" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="-4.06" y1="2.92" x2="-4.06" y2="2.41" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-1.64" x2="-4.1" y2="-2.15" width="0.2032" layer="21"/>
-<smd name="P$1" x="-3.4" y="0.27" dx="3" dy="1.6" layer="1" rot="R90"/>
-<smd name="P$2" x="3.4" y="0.27" dx="3" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="-1" y="-2" dx="1" dy="5.5" layer="1"/>
-<smd name="1" x="1" y="-2" dx="1" dy="5.5" layer="1"/>
-<text x="2.54" y="-5.08" size="1.27" layer="25">&gt;Name</text>
-<text x="2.24" y="3.48" size="1.27" layer="27">&gt;Value</text>
-</package>
 <package name="R_SW_TH">
 <wire x1="-1.651" y1="19.2532" x2="-1.651" y2="-1.3716" width="0.2032" layer="21"/>
 <wire x1="-1.651" y1="-1.3716" x2="-1.651" y2="-2.2352" width="0.2032" layer="21"/>
@@ -999,18 +904,6 @@ chip</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="M02">
-<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -1113,78 +1006,6 @@ chip</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="M02" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;Header 2&lt;/b&gt;
-Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08233 with associated crimp pins and housings.</description>
-<gates>
-<gate name="G$1" symbol="M02" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="1X02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POLAR" package="MOLEX-1X2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SCREW" package="SCREWTERMINAL-3.5MM-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-JST-2MM-SMT" package="S2B-PH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="1X02_BIG">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="4UCON-15767" package="S2B-PH-VERTICAL">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="ROCKER" package="R_SW_TH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$3"/>
-<connect gate="G$1" pin="2" pad="P$4"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5544,29 +5365,27 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="F1" library="SparkFun" deviceset="PTC" device="PTH" value="500mA"/>
 <part name="RAW" library="SparkFun" deviceset="VCC" device="" value="RAW"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
-<part name="JP5" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="D1" library="SparkFun" deviceset="DIODE" device="PTH" value="1N4001"/>
-<part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="S2" library="SparkFun" deviceset="SWITCH-SPST" device="PTH" value="Voltage"/>
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="330"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="Pwr_in"/>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
 <part name="RESET" library="SmartPrj" deviceset="TS42" device="" value="TS42031-160R-TR-7260"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10K"/>
-<part name="DOUT" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="AOUT_H" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
+<part name="DOUT" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="female_header"/>
+<part name="AOUT_H" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="holes"/>
 <part name="SR_D0" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="COM_SERIAL" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="COM_SERIAL" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="male_header"/>
 <part name="SR_D1" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SR_D2" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="QA0" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
-<part name="D0_IN" library="SparkFun-Connectors" deviceset="M07" device=""/>
+<part name="D0_IN" library="SparkFun-Connectors" deviceset="M07" device="" value="DConnector"/>
 <part name="QB0" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QC0" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QD0" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
@@ -5582,7 +5401,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="QA1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
-<part name="D1_IN" library="SparkFun-Connectors" deviceset="M07" device=""/>
+<part name="D1_IN" library="SparkFun-Connectors" deviceset="M07" device="" value="DConnector"/>
 <part name="QB1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QC1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QD1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
@@ -5598,7 +5417,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="QA2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
-<part name="D2_IN" library="SparkFun-Connectors" deviceset="M07" device=""/>
+<part name="D2_IN" library="SparkFun-Connectors" deviceset="M07" device="" value="DConnector"/>
 <part name="QB2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QC2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="QD2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
@@ -5612,13 +5431,13 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="OBD_SERIAL" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="OBD_SERIAL" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="male_header"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="AOUT" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
-<part name="DOUT_H" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="AOUT" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="female_header"/>
+<part name="DOUT_H" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="holes"/>
+<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
 <part name="DIS_PWR_SELECT" library="SparkFun-Retired" deviceset="JUMPER-3" device="PTH"/>
-<part name="PWR_PINS_OUT" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="PWR_PINS_OUT" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="DConnector"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -5670,7 +5489,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <text x="332.74" y="223.52" size="2.54" layer="97" font="vector">Analog_Outputs</text>
 <text x="325.12" y="15.24" size="2.54" layer="94">2</text>
 <text x="114.3" y="86.36" size="5.08" layer="97">Digits Operators</text>
-<text x="114.3" y="11.43" size="5.08" layer="97">Dosplay Power Out</text>
+<text x="114.3" y="11.43" size="5.08" layer="97">Display Power Out</text>
 <wire x1="220.98" y1="2.54" x2="220.98" y2="83.82" width="0.1524" layer="94"/>
 </plain>
 <instances>
@@ -5743,16 +5562,9 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="P+3" gate="1" x="129.54" y="238.76" smashed="yes">
 <attribute name="VALUE" x="128.524" y="242.316" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="G$1" x="40.64" y="231.14" smashed="yes" rot="R180">
-<attribute name="VALUE" x="43.18" y="236.22" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="43.18" y="225.298" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="D1" gate="G$1" x="58.42" y="233.68" smashed="yes">
 <attribute name="NAME" x="57.15" y="235.6866" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.594" y="229.87" size="1.778" layer="96"/>
-</instance>
-<instance part="GND7" gate="1" x="30.48" y="223.52" smashed="yes">
-<attribute name="VALUE" x="27.94" y="220.98" size="1.778" layer="96"/>
 </instance>
 <instance part="S2" gate="1" x="99.06" y="203.2" smashed="yes">
 <attribute name="NAME" x="97.155" y="196.85" size="1.778" layer="95"/>
@@ -5785,7 +5597,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <attribute name="VALUE" x="155.702" y="237.49" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="DOUT" gate="G$1" x="365.76" y="203.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="368.3" y="213.36" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="378.46" y="213.36" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="368.3" y="194.818" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="AOUT_H" gate="G$1" x="350.52" y="243.84" smashed="yes" rot="R180">
@@ -6014,27 +5826,27 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <attribute name="VALUE" x="175.26" y="190.5" size="1.778" layer="96"/>
 </instance>
 <instance part="AOUT" gate="G$1" x="363.22" y="243.84" smashed="yes" rot="R180">
-<attribute name="VALUE" x="368.3" y="254" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="378.46" y="254" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="368.3" y="232.918" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="DOUT_H" gate="G$1" x="353.06" y="203.2" smashed="yes" rot="R180">
 <attribute name="VALUE" x="355.6" y="213.36" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="355.6" y="194.818" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="R27" gate="G$1" x="149.86" y="45.72" smashed="yes">
-<attribute name="NAME" x="146.05" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.05" y="42.418" size="1.778" layer="96"/>
+<instance part="R27" gate="G$1" x="143.51" y="45.72" smashed="yes">
+<attribute name="NAME" x="139.7" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="139.7" y="42.418" size="1.778" layer="96"/>
 </instance>
-<instance part="DIS_PWR_SELECT" gate="G$1" x="171.45" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="171.45" y="52.07" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.45" y="42.545" size="1.778" layer="96"/>
+<instance part="DIS_PWR_SELECT" gate="G$1" x="165.1" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="165.1" y="52.07" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="42.545" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR_PINS_OUT" gate="G$1" x="208.28" y="48.26" smashed="yes" rot="R180">
-<attribute name="VALUE" x="210.82" y="53.34" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="210.82" y="42.418" size="1.778" layer="95" rot="R180"/>
+<instance part="PWR_PINS_OUT" gate="G$1" x="201.93" y="48.26" smashed="yes" rot="R180">
+<attribute name="VALUE" x="204.47" y="53.34" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="204.47" y="42.418" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND17" gate="1" x="191.77" y="35.56" smashed="yes">
-<attribute name="VALUE" x="189.23" y="33.02" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="185.42" y="35.56" smashed="yes">
+<attribute name="VALUE" x="182.88" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6066,12 +5878,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <wire x1="25.4" y1="233.68" x2="25.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="33.02" y1="228.6" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="228.6" x2="30.48" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="190.5" x2="88.9" y2="187.96" width="0.1524" layer="91"/>
@@ -6227,8 +6033,8 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </segment>
 <segment>
 <pinref part="PWR_PINS_OUT" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="45.72" x2="191.77" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="191.77" y1="45.72" x2="191.77" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="45.72" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -6266,8 +6072,8 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<label x="139.7" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="138.43" y1="45.72" x2="133.35" y2="45.72" width="0.1524" layer="91"/>
+<label x="133.35" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6341,9 +6147,9 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <label x="27.94" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="168.91" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="50.8" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
-<label x="154.94" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="162.56" y1="50.8" x2="148.59" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="148.59" y1="50.8" x2="148.59" y2="55.88" width="0.1524" layer="91"/>
+<label x="148.59" y="55.88" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="DIS_PWR_SELECT" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -6363,13 +6169,8 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="PWRIN" class="0">
 <segment>
-<wire x1="22.86" y1="236.22" x2="30.48" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="231.14" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="231.14" x2="30.48" y2="236.22" width="0.1524" layer="91"/>
-<junction x="30.48" y="236.22"/>
+<wire x1="22.86" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -7366,7 +7167,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <net name="12VOUT" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="45.72" x2="168.91" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="148.59" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="DIS_PWR_SELECT" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -7374,7 +7175,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <segment>
 <pinref part="DIS_PWR_SELECT" gate="G$1" pin="2"/>
 <pinref part="PWR_PINS_OUT" gate="G$1" pin="1"/>
-<wire x1="168.91" y1="48.26" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="48.26" x2="194.31" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

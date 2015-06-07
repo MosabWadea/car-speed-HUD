@@ -5376,12 +5376,12 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="10K"/>
 <part name="DOUT" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="female_header"/>
 <part name="AOUT_H" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH" value="holes"/>
-<part name="SR_D0" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
+<part name="SR_D0" library="SparkFun-DigitalIC" deviceset="74*595" device="N" technology="LS" value="74LS595N"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="COM_SERIAL" library="SparkFun-Connectors" deviceset="M02" device="PTH" value="male_header"/>
-<part name="SR_D1" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
+<part name="SR_D1" library="SparkFun-DigitalIC" deviceset="74*595" device="N" technology="LS" value="74LS595N"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SR_D2" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
+<part name="SR_D2" library="SparkFun-DigitalIC" deviceset="74*595" device="N" technology="LS" value="74LS595N"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="QA0" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>

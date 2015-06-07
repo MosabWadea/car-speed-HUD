@@ -36,3 +36,6 @@ eagle.epf
 *.eps
 
 thumbs.db
+
+*.job
+*.pro
